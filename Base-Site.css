@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.cabecalho {
+
+    position: absolute;
+    width: 100%;
+    height: 93px;
+    display: flex;
+    background: #000000;
+
+}
+
+.cabecalho_menu {
+    position: absolute;
+    left: 350px;
+    top: 46px;
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho_menu_link {
+
+
+
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+
+}
+
+.download {
+
+
+    position: absolute;
+    width: 180px;
+    height: 41px;
+    left: 1150px;
+    top: 38px;
+
+    background: #46B4CF;
+    border-radius: 94px;
+
+
+
+}
+
+.download_botao {
+
+    position: absolute;
+    width: 142px;
+    height: 26px;
+    left: 1170px;
+    top: 45px;
+
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.logo {
+
+
+    width: 201px;
+    height: 93px;
+    left: 0px;
+    top: 0px;
+}
+
+.fundo {
+
+    position: absolute;
+    width: 100%;
+    display: flex;
+    left: 0px;
+    top: 45px;
+
+    
+}
+
+.container-slide {
+
+    position: absolute;
+    width: 100%;
+    height: 288px;
+    top: 100px;
+    background: rgba(0, 0, 0, 0.71);
+
+
+}
+
+.sliderbar {}
+
+.logocentro {
+
+    position: absolute;
+    background: rgba(0, 0, 0, 0.71);
+    top: 300px;
+    width: 30%;
+    left: 450px;
+    display: block;
+    display: flex;
+    opacity: 60%;
+
+}
+
+.logocentro{
+
+    position: absolute;
+    background: rgba(0, 0, 0, 0.71);
+     top: 300px;
+     width: 30%;
+    left: 450px;
+    display: block;
+     display: flex;
+     opacity: 60%;
+    
+    }
+
+.logocentro2{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 300px;
+    background: rgba(0, 0, 0, 0.71);
+    opacity: 60%;
+}
+
+.bloco-requisito {
+
+    position: absolute;
+    width: 1250px;
+    height: 150px;
+    left: 49px;
+    top: 825px;
+    background: rgba(0, 0, 0, 0.71);
+
+}
+
+.historia1 {
+    position: absolute;
+    width: 278px;
+    height: 396px;
+    left: 165px;
+    top: 169px;
+
+    background: rgba(0, 0, 0, 0.71);
+}
+
+.historia2 {
+    position: absolute;
+    width: 487px;
+    height: 450px;
+    left: 699px;
+    top: 169px;
+
+    background: rgba(0, 0, 0, 0.71);
+}
+
+.historia3 {
+    position: absolute;
+    width: 487px;
+    height: 450px;
+    left: 60px;
+    top: 814px;
+
+    background: rgba(0, 0, 0, 0.71);
+}
+
+.historia4 {
+    position: absolute;
+    width: 278px;
+    height: 396px;
+    left: 804px;
+    top: 814px;
+
+    background: rgba(0, 0, 0, 0.71);
+}
+
+.formulario1{
+    position: absolute;
+    width: 400px;
+    height: 26px;
+    left: 450px;
+    top: 350px;
+    color: whitesmoke;
+       
+}
+
+.formulario2 {
+    position: absolute;
+    width: 500px;
+    height: 26px;
+    left: 400px;
+    top: 220px;
+    color: #46B4CF;
+
+}
+
+.formulario3 {
+    position: absolute;
+    width: 500px;
+    height: 26px;
+    left: 620px;
+    top: 620px;
+
+}
+
+.centro {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 150px;
+    left: 350px;
+    display: flex;
+    background: rgba(0, 0, 0, 0.71);
+    opacity: 80%;
+}
+
+.jogo {
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    left: 100px;
+    top: 169px;
+    
+    background: rgba(0, 0, 0, 0.71);
+}
+
+.jogo1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 165px;
+    top: 600px;
+
+    background: rgba(0, 0, 0, 0.71);
+}
+
+.jogo2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 575px;
+    top: 600px;
+
+    background: rgba(0, 0, 0, 0.71);
+}
+
+.jogo3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1000px;
+    top: 600px;
+
+    background: rgba(0, 0, 0, 0.71);
+}
+
+.jogo4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 350px;
+    top: 900px;
+
+    background: rgba(0, 0, 0, 0.71);
+}
+
+.jogo5 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 750px;
+    top: 900px;
+
+    background: rgba(0, 0, 0, 0.71);
+}
